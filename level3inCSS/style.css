@@ -1,0 +1,25 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
+:root {
+  --text-color: white;
+  --secondary-color: rgb(78, 75, 75);
+  --background-color: rgba(9, 9, 9, 0.327);
+}
+body {
+  background-color: var(--background-color);
+}
+nav {
+  background-color: var(--secondary-color);
+  padding: 23px;
+}
+ul li {
+  display: inline;
+  padding: 30px;
+  list-style: none;
+}
+ul li a {
+  color: var(--text-color);
+  text-decoration: none;
+}
