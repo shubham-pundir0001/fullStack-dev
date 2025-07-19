@@ -2,6 +2,11 @@
     margin: 0;
     padding: 0;
 }
+header{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -30,15 +35,16 @@ main{
 .container{
     /* background-color: black; */
     height: 80vh;
-    width: 70vw;
+    width: 50vw;
     display: grid;
+    margin: 60px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 20px;
 }
 .language{
     /* border: 2px solid red; */
-    background-color: rgb(240, 233, 224);
+    background-color: #f9f9f9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,10 +52,16 @@ main{
 
 }
 .language div{
-    font-size:large;
+    padding-bottom: 35px;
+    font-weight: 600;
+    font-family: sans-serif;
 }
 .language span a{
-    background-color: blue;
+    border-radius: 6px;
+    text-decoration: none;
+    
+    padding: 4px 9px;
+    background-color: #5cb85c;
     margin: 1px 0px;
     /* border: 2px solid whit */
     color: aliceblue;
